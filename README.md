@@ -1,20 +1,23 @@
-# Landing Page
+# Landing Page “Amor em Mousse”
 
-Este repositório contém a landing page desenvolvida para divulgação pessoal/profissional.  
-
-O site é totalmente estático, construído com **HTML** e **CSS**, e pode ser hospedado gratuitamente via GitHub Pages.
+Este projeto é uma **landing page responsiva** criada para divulgar o negócio de doces “Amor em Mousse”. O principal objetivo é apresentar os produtos de forma visualmente atraente e gerar **conversão direta via WhatsApp**.
 
 ## Funcionalidades
-- HTML Semântico
-- Layout responsivo para desktop e mobile
-- Navegação simples e intuitiva
-- Estrutura organizada de arquivos
+- Layout responsivo para desktop e mobile.
+- Seção de apresentação do negócio e produtos.
+- Botões de conversão para WhatsApp com mensagens pré-definidas.
+- Design moderno e minimalista focado na experiência do usuário.
+- Publicação online via GitHub Pages.
 
-## Estrutura do projeto
-- `index.html` → Página principal
-- `style.css` → Arquivos de estilo
+## Tecnologias utilizadas
+- HTML5
+- CSS3 (Flexbox e Grid)
+- JavaScript básico
+- GitHub Pages para deploy gratuito
 
-## Visualização
+## Links importantes
+- Repositório no GitHub: [https://github.com/joaojnr10/Landing-page](https://github.com/joaojnr10/Landing-page)
+- Deploy online: [https://joaojnr10.github.io/Landing-page/](https://joaojnr10.github.io/Landing-page/)
 
-O site está disponível online através do GitHub Pages:  
-[(https://joaojnr10.github.io/Landing-page/)]
+## Sobre o projeto
+O projeto foi desenvolvido **completo**, do design à conversão, incluindo estratégia de comunicação e experiência do usuário. É um exemplo funcional de como uma página estática simples pode gerar resultados reais.
