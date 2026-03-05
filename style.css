@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: white;
+}
+
+header .logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 150px;
+}
+
+header .logo h1 {
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+header h1 {
+    color: #390F00;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 20px;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(#ff9fc0, #ff6fa3);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.hero .bnt {
+    background: white;
+    color: #d94f7a;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero .bnt:hover {
+    transform: scale(1.05);
+}
+
+.sobre {
+    padding: 80px 10%;
+    background: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.sobre-img img {
+    width: 300px;
+}
+
+.sobre-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #390F00;
+    text-align: center;
+}
+
+.sobre-texto p {
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #390F00;
+
+}
+
+.sabores {
+    text-align: center;
+    padding: 80px 20px;
+    background: #ffe4ec;
+
+}
+
+.lista-sabores {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.3s;
+
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.eventos {
+    padding: 80px 10%;
+    background: #ffd1dc;
+}
+
+.eventos-img {
+    width: 300px;
+    height: 550px;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+
+}
+
+.eventos-img:hover {
+    transform: scale(1.05);
+}
+
+.eventos-texto {
+    margin-top: 15px;
+    line-height: 2;
+    text-align: center;
+    max-width: 500px;
+}
+
+.eventos-texto ul {
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.eventos-texto .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #ff4f87;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.eventos-texto .btn:hover {
+    transform: scale(1.05);
+}
+
+
+.contato {
+    text-align: center;
+    padding: 80px 10%;
+    background: white;
+}
+
+.contato .whatsapp {
+    background: #25D366;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.contato .whatsapp:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ff6fa3;
+    color: white;
+    width: 100%;
+
+
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
