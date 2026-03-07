@@ -59,11 +59,11 @@ header h1 {
 @media (max-width: 600px) {
 
     header {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        padding: 15px 20px;
-        width: 100%;
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        display: flex; /* Define o display como flex, permitindo o uso de flexbox */
+        flex-direction: column; /* Define a direção da flexbox como coluna */
+        padding: 15px 20px; /* Reduz o padding horizontal para 20px */
+        width: 100%; /* Ocupa 100% da largura da tela */
     }
 
     nav {
