@@ -12,7 +12,6 @@ Este projeto é uma **landing page responsiva** criada para divulgar o negócio 
 ## Tecnologias utilizadas
 - HTML5
 - CSS3 (Flexbox e Grid)
-- JavaScript básico
 - GitHub Pages para deploy gratuito
 
 ## Links importantes
